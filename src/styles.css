@@ -1,4 +1,19 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body{
+  background-color: #000;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-wrapper{
+  background-color: #fff;
+  width: 400px;
+  border-radius: 16px;
+}
+
+.row{
+  display: flex;
 }
